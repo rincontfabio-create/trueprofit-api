@@ -1,0 +1,24 @@
+# Secretos: nunca al repositorio
+.env
+.env.*
+!.env.example
+
+# Entorno y cachés
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+
+# Datos reales del negocio: no se versionan (solo los sintéticos de data/)
+datos_reales/
+*.xlsx
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
