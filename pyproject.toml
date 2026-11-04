@@ -37,6 +37,8 @@ packages = ["src/trueprofit"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-q"
+# Aviso interno de Starlette sobre el cliente de pruebas; no afecta a la aplicación.
+filterwarnings = ["ignore:Using `httpx` with `starlette.testclient`"]
 
 [tool.ruff]
 line-length = 100
