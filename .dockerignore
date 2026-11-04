@@ -1,0 +1,10 @@
+# Lista blanca: al contexto de Docker solo entra lo necesario para ejecutar.
+# Quedan fuera: .env (secretos), .git, .venv, tests/, scripts/, data/, cachés.
+*
+!pyproject.toml
+!uv.lock
+!.python-version
+!README.md
+!src/
+!ui/
+**/__pycache__
