@@ -53,7 +53,7 @@ orden**. Una orden con 2 productos suma ambas líneas, pero cuenta como 1 pedido
 ## Instalación desde cero
 
 ```bash
-git clone https://github.com/<usuario>/trueprofit-api.git
+git clone https://github.com/rincontfabio-create/trueprofit-api.git
 cd trueprofit-api
 uv sync                      # crea .venv con las versiones exactas de uv.lock
 cp .env.example .env         # en Windows PowerShell: Copy-Item .env.example .env
